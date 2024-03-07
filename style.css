@@ -1,0 +1,199 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.main-wrapper {
+  padding: 16px;
+}
+.header {
+  display: flex;
+}
+.line {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  width: 70%;
+  text-align: center;
+}
+.img-one {
+  width: 10px;
+}
+a {
+  color: white;
+}
+img {
+  background-color: white;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+p img .email {
+  width: 20px;
+  padding: 16px;
+}
+p img .mail {
+  width: 20px;
+  gap: 4px;
+}
+.phone {
+  display: flex;
+  padding: 16px;
+}
+.navbar {
+  padding: 16px;
+  display: flex;
+  text-align: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 16px;
+}
+.active {
+  background-color: #f9b32d;
+}
+.moving {
+  position: relative;
+}
+.moving img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.family {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+h5 {
+  font-size: 30px;
+  color: white;
+}
+.family span {
+  font-size: 50px;
+  color: white;
+}
+.btn-move {
+  background-color: #f9b32d;
+  color: white;
+  width: 150px;
+  border: none;
+  border-radius: 15px;
+}
+/* .sidebar {
+  position: relative;
+  bottom: 15%;
+} */
+.box-1 {
+  width: 100%;
+}
+.box-2 {
+  width: 50%;
+  padding: 16px 16px;
+  height: 50%;
+}
+.sidebar {
+  display: flex;
+  padding: 16px;
+}
+.describe-riaad {
+  color: black;
+}
+a .riaad {
+  color: black;
+}
+.year {
+  font-size: 30px;
+  color: black;
+  padding-top: 8px;
+}
+.lorem {
+  padding: 0px 16px;
+}
+.brand {
+  display: flex;
+  margin-top: -6%;
+}
+.img-brand {
+  width: 180px;
+  padding: 16px;
+}
+.do {
+  padding: 16px;
+}
+.services {
+  display: flex;
+}
+.service-img {
+  width: 30%;
+  text-align: center;
+}
+h6 {
+  font-size: 25px;
+}
+.banner-content {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+.background-img {
+  width: 350px;
+  position: relative;
+}
+.video {
+  display: flex;
+}
+.video-img {
+  width: 100px;
+  position: absolute;
+}
+.choice {
+  display: flex;
+  gap: 10px;
+}
+.choice-img {
+  width: 350px;
+
+  border-right: 50px solid #507bc0;
+  border-bottom: 70px solid #507bc0;
+}
+.request-img {
+  width: 150px;
+}
+.testimonial {
+  display: flex;
+}
+.face {
+  width: 40px;
+  border-radius: 50%;
+}
+img .article-img {
+  width: 150px;
+}
+img .icon {
+  width: 30px;
+}
+.socials {
+  display: flex;
+}
+.footer-2 {
+  display: flex;
+  border: 2px solid red;
+}
+.help {
+  display: flex;
+  gap: 10px;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+}
+.check-img {
+  width: 25px;
+}
