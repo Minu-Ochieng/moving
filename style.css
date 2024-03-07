@@ -29,14 +29,20 @@ img {
   display: flex;
   justify-content: space-evenly;
 }
-p img .email {
+
+.email {
+  display: grid;
+  grid-template-rows: table-row;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* p img .email {
   width: 20px;
   padding: 16px;
-}
-p img .mail {
+} */
+/* p img .mail {
   width: 20px;
   gap: 4px;
-}
+} */
 .phone {
   display: flex;
   padding: 16px;
@@ -164,10 +170,15 @@ h6 {
   border-bottom: 70px solid #507bc0;
 }
 .request-img {
-  width: 150px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .testimonial {
+  justify-content: space-evenly;
   display: flex;
+  /* gap: 10px; */
+  padding: 16px;
 }
 .face {
   width: 40px;
@@ -178,13 +189,15 @@ img .article-img {
 }
 img .icon {
   width: 30px;
+  gap: 10px;
 }
 .socials {
   display: flex;
+  flex-direction: row;
 }
 .footer-2 {
   display: flex;
-  border: 2px solid red;
+  width: 100%;
 }
 .help {
   display: flex;
@@ -196,4 +209,122 @@ img .icon {
 }
 .check-img {
   width: 25px;
+}
+.verified {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  /* transform: translate(-50%, -50%); */
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.any {
+  font-size: 15px;
+  position: absolute;
+}
+img .choice-img {
+  position: relative;
+}
+a .yellow {
+  color: #f9b32d;
+}
+.directions {
+  width: 18px;
+}
+a .book-online {
+  color: #f9b32d;
+}
+.footer-1 {
+  background-color: #f9b32d;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100px;
+  justify-content: space-between;
+}
+button {
+  background-color: black;
+  color: #fff;
+  width: 80px;
+  border: none;
+}
+.footer2 {
+  background-color: #2d2c2a;
+  display: flex;
+  color: #fff;
+  height: 300px;
+}
+.contacts {
+  display: grid;
+}
+li {
+  list-style-type: none;
+}
+a .vlog {
+  color: #f9b32d;
+}
+.articles {
+  display: flex;
+  position: relative;
+}
+/* .article-img {
+  position: relative;
+}
+.admin,
+.boomer {
+  position: absolute;
+} */
+.quote {
+  background-color: #f9b32d;
+  height: auto;
+}
+.request {
+  display: flex;
+}
+.fill {
+  background-color: #507bc0;
+  width: 100%;
+}
+.fill-in {
+  display: flex;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 }
