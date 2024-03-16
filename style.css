@@ -13,9 +13,10 @@ body {
   background-color: black;
   color: white;
   padding: 16px;
-  width: 70%;
+  width: 100%;
   text-align: center;
 }
+
 .img-one {
   width: 10px;
 }
@@ -27,26 +28,25 @@ img {
 }
 .contact {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
-.email {
-  display: grid;
-  grid-template-rows: table-row;
-  grid-template-columns: repeat(2, 1fr);
-}
-/* p img .email {
-  width: 20px;
-  padding: 16px;
-} */
-/* p img .mail {
-  width: 20px;
-  gap: 4px;
-} */
-.phone {
+.mail,
+.telphone {
   display: flex;
-  padding: 16px;
+  flex-direction: column;
 }
+.side-mail {
+  padding: 8px;
+}
+.tel {
+  padding: 8px;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+}
+
 .navbar {
   padding: 16px;
   display: flex;
@@ -72,13 +72,13 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-30%, -70%);
   color: #fff;
   padding: 10px 20px;
   font-size: 20px;
 }
 h5 {
-  font-size: 30px;
+  font-size: 12px;
   color: white;
 }
 .family span {
@@ -88,9 +88,10 @@ h5 {
 .btn-move {
   background-color: #f9b32d;
   color: white;
-  width: 150px;
+  width: 180px;
   border: none;
-  border-radius: 15px;
+
+  height: 50px;
 }
 /* .sidebar {
   position: relative;
@@ -103,6 +104,7 @@ h5 {
   width: 50%;
   padding: 16px 16px;
   height: 50%;
+  /* position: absolute; */
 }
 .sidebar {
   display: flex;
@@ -287,6 +289,12 @@ a .vlog {
 }
 .fill-in {
   display: flex;
+}
+.empty {
+  border: solid 5px #507ac1;
+  width: 50%;
+  height: 25%;
+  position: relative;
 }
 
 /* Extra small devices (phones, 600px and down) */
